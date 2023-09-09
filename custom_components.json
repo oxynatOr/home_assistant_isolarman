@@ -1,0 +1,13 @@
+{
+    "omnik": {
+        "version": "0.0.1",
+        "local_location": "/custom_components/isolarman/sensor.py",
+        "remote_location": "https://raw.githubusercontent.com/oxynatOr/home_assistant_isolarman/main/custom_components/solarman/solarman.py",
+        "visit_repo": "https://github.com/oxynatOr/home_assistant_isolarman",
+        "changelog": "https://github.com/oxynatOr/home_assistant_isolarman",
+        "resources": [
+            "https://raw.githubusercontent.com/oxynatOr/home_assistant_isolarman/master/custom_components/solarman/__init__.py",
+            "https://raw.githubusercontent.com/oxynatOr/home_assistant_isolarman/master/custom_components/solarman/manifest.json"
+        ]
+    }
+}
