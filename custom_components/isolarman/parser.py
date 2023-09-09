@@ -35,6 +35,8 @@ class ParameterParser:
             self.try_parse_ascii(rawData,definition, start, length)
         elif rule == 6:
             self.try_parse_bits(rawData,definition, start, length)
+        elif rule == 7:
+            self.try_parse_version(rawData,definition, start, length)            
         elif rule == 8:
             self.try_parse_datetime(rawData,definition, start, length)
         elif rule == 9:
