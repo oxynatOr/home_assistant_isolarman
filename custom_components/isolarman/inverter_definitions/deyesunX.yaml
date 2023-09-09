@@ -276,7 +276,7 @@ parameters:
         state_class: ""
         uom: ""
         scale: 1
-        rule: 20
+        rule: 7
         registers: [0x000C]
         icon: "mdi:map-marker"
 
@@ -285,7 +285,7 @@ parameters:
         state_class: ""
         uom: ""
         scale: 1
-        rule: 20
+        rule: 7
         registers: [0x000D]
         icon: "mdi:map-marker"
 
@@ -294,7 +294,7 @@ parameters:
         state_class: ""
         uom: ""
         scale: 1
-        rule: 20
+        rule: 7
         registers: [0x000E]
         icon: "mdi:map-marker"
 
@@ -313,7 +313,7 @@ parameters:
         state_class: ""
         uom: ""
         scale: 1
-        rule: 20
+        rule: 7
         registers: [0x0002]
         icon: "mdi:wrench"
 
@@ -322,7 +322,7 @@ parameters:
         state_class: ""
         uom: "s"
         scale: 1
-        rule: 1
+        rule: 9
         registers: [0x0015]
         icon: "mdi:solar-power"
 
@@ -330,8 +330,8 @@ parameters:
         class: ""
         state_class: ""
         uom: ""
-        scale: 1
-        rule: 21
+        scale: "%d.%m.%y %H:%M:%S"
+        rule: 8
         registers: [0x0015, 0x0016, 0x0017, 0x0018]
         icon: "mdi:clock-time-three-outline"
 
