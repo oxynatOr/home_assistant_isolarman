@@ -40,7 +40,7 @@ def _do_setup_platform(hass: HomeAssistant, config, async_add_entities : AddEnti
     if not inverter_mb_slaveid:
         inverter_mb_slaveid = DEFAULT_INVERTER_MB_SLAVEID
     lookup_file = config.get(CONF_LOOKUP_FILE)
-    path = hass.config.path('custom_components/solarman/inverter_definitions/')
+    path = hass.config.path('custom_components/isolarman/inverter_definitions/')
 
     # Check input configuration.
     if inverter_host is None:
@@ -123,7 +123,7 @@ class SolarmanStatus(SolarmanSensor, Entity):
         self.inverter = inverter
         self._field_name = field_name
         self.p_state = None
-        self.p_icon = 'mdi:magnify'
+        self.p_icon = 'mdi:reload-alert'
         self._sn = sn
         return
 
